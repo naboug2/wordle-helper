@@ -1,0 +1,15 @@
+ExactLetters("s_li") should output ['solid', 'split']
+
+ExactLetters("ab___") should output ['abate', 'abase', 'aback', 'abyss', 'abbey', 'about', 'abide', 'abort', 'abuse', 'abode', 'abbot', 'abled', 'above', 'abhor']
+
+ExactLetters("dr__n") should output ['drain', 'drawn', 'drown']
+
+ExactLetters("__tt_") should output ['batty', 'motto', 'patty', 'ditto', 'kitty', 'tatty', 'jetty', 'putty', 'fatty', 'ditty', 'bitty', 'witty', 'butte', 'nutty', 'latte', 'ratty', 'petty', 'catty']
+
+ContainsLetters("ode") should output ['model', 'adobe', 'dozen', 'erode', 'dodge', 'depot', 'oxide', 'diode', 'dowel', 'adore', 'lodge', 'drove', 'credo', 'horde', 'detox', 'decor', 'order', 'abode', 'demon', 'olden', 'older', 'decoy', 'odder', 'anode', 'video', 'drone', 'modem', 'endow', 'dopey', 'rodeo']
+
+ContainsLetters("yjl") should output ['jolly', 'jelly']
+
+ContainsLetters("qksf") should output []
+
+ContainsLetters("for") should output ['forth', 'front', 'forge', 'fjord', 'favor', 'foray', 'foyer', 'forgo', 'froth', 'floor', 'frown', 'furor', 'frock', 'frond', 'offer', 'forty', 'flour', 'flora', 'force', 'proof', 'frost', 'forum', 'froze', 'forte']
